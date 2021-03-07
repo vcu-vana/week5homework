@@ -45,6 +45,6 @@ def longest_value_key(incoming_dict):
                 longest_value = value
                 greatest = len(value)
                 longest_key = k
+                return longest_key
     except:
-        longest_key = "There was an error"
-    return longest_key
+        return None
