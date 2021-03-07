@@ -24,7 +24,9 @@ def add_list_numbers(incoming_list):
     Required parameter, incoming_list, should be a list.
     Add all the values together and return it.
     """
-    total = sum(incoming_list)
+    total = 0
+    for x in incoming_list:
+        total = total + incoming_list[x]
     return total
 
 
