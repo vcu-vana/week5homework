@@ -39,12 +39,15 @@ def longest_value_key(incoming_dict):
     greatest = 0
     longest_key = ""
     try:
-        for k in incoming_dict:
-            value = incoming_dict.get(k)
-            if len(value) > greatest:
-                longest_value = value
-                greatest = len(value)
-                longest_key = k
-                return longest_key
+        if len(incoming_dict > 0):
+            for k in incoming_dict:
+                value = incoming_dict.get(k)
+                if len(value) > greatest:
+                    longest_value = value
+                    greatest = len(value)
+                    longest_key = k
+                    return longest_key
+        else:
+            return None
     except:
         return None
