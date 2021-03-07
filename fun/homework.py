@@ -24,7 +24,10 @@ def add_list_numbers(incoming_list):
     Required parameter, incoming_list, should be a list.
     Add all the values together and return it.
     """
-    total = sum(incoming_list)
+    try:
+        total = sum(incoming_list)
+    except:
+        total = 0
     return total
 
 
