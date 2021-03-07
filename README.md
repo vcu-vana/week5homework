@@ -24,5 +24,3 @@ Updated the 'README.md' file to change the URLs for the github actions
 All changes should happen in ./fun/homework.py
 
 When you have them green, give me the repository link in Canvas!
-
-
