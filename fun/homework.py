@@ -6,11 +6,7 @@ def find_greatest_number(incoming_list):
     Required parameter, incoming_list, should be a list.
     Find the largest number in the list.
     """
-    max = incoming_list[0]
-    for x in incoming_list
-        if x > max :
-            max = x
-    return x
+    max(incoming_list)
     pass
 
 
