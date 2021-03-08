@@ -46,7 +46,7 @@ def longest_value_key(incoming_dict):
                 greatest = len(value)
                 longest_key = k
                 return longest_key
-    if len(incoming_dict) == 0:
+    else if len(incoming_dict) == 0:
         return None
     else:
         return None
